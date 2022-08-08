@@ -732,6 +732,7 @@ button {
 }
 .modal-title {
     display: block;
+    width: auto;
     margin-bottom: 12px;
     font-family: 'Roboto';
     font-style: normal;
