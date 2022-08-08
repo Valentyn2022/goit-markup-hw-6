@@ -731,6 +731,8 @@ button {
 
 }
 .modal-title {
+    display: block;
+    margin-bottom: 12px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
@@ -764,6 +766,8 @@ button {
 
 .form-lable {
     margin-bottom: 4px;
+    display: block;
+
 
     font-size: 12px;
     line-height: 1.17;
@@ -778,6 +782,7 @@ button {
     padding: 0;
     padding-left: 42px;
     outline: none;
+    border-radius: 4px;
     border: 1px solid rgba(33, 33, 33, 0.2);
 
     transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -796,6 +801,7 @@ textarea {
     width: 448px;
     height: 120px;
     outline: none;
+    border-radius: 4px;
     border: 1px solid rgba(33, 33, 33, 0.2);
 
     transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -867,7 +873,7 @@ textarea:focus {
     font-size: 14px;
     line-height: 1.72;
     letter-spacing: 0.03em;
-    color: var(--secondary-text-coor);
+    color: var(--secondary-text-color);
 }
 
 .link-policy {
